@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TestTask/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TestTask from './components/TestTask.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TestTask
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang='sass'>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap')
+
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Open Sans', sans-serif
 </style>

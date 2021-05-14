@@ -1,0 +1,99 @@
+.flexbox-wrapper
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: space-between
+  width: 40%
+  position: relative
+  left: 30%
+.container
+  text-align: center
+input
+  display: none
+.output
+  left:35%
+  position: relative
+  width: 30%
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: space-around
+
+.list
+  .header-list
+    font-size: 18px
+    font-weight: 400 
+    text-transform: capitalize
+  .item-list
+    list-style-type: none
+
+.state
+  cursor: pointer
+  outline: none
+  border: none
+  padding: 10px 16px
+  text-align: center
+  margin: 5px 10px
+  color: white
+  font-size: 16px
+  border-radius: 15px
+  &.add
+    background-color: #33c720
+  &.rem
+    background-color: #fa3f32
+  &.cancel
+    background-color: #d32316
+  &.current
+    background-color: #381dd1
+  &.reload 
+    background-color: #0dbdb4
+// .multiselect
+//   border-bottom: 1px solid purple
+//   padding: 5px
+//   &__tags
+//     min-height: 26px
+//     min-width: 100%
+//   &__content
+//     list-style: none
+//     display: inline-block
+//     padding: 0
+//     margin: 0
+//     min-width: 100%
+//     vertical-align: top
+//     &-wrapper
+//       position: absolute
+//       background: #fff
+//       width: 100%
+//       max-height: 240px
+//       overflow: auto
+//       border: 1px solid #e8e8e8
+//       border-top: none
+//       border-bottom-left-radius: 5px
+//       border-bottom-right-radius: 5px
+//       -webkit-overflow-scrolling: touch
+
+//   &__element
+//     cursor: pointer
+//     padding: 4px
+//     border-top: 1px grey 
+//     border-bottom: 1px grey
+
+//   &__option
+//     display: block
+//     padding: 12px
+//     min-height: 40px
+//     line-height: 16px
+//     text-decoration: none
+//     text-transform: none
+//     vertical-align: middle
+//     position: relative
+//     cursor: pointer
+//     white-space: nowrap
+//     &--selected
+//       background: #ff6c6c
+//       color: #35495e
+//       font-weight: 700
+//     &--highlighted
+//       background: #41b883
+//       outline: none
+//       color: #fff
